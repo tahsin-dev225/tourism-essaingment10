@@ -1,0 +1,16 @@
+.bgfirst{
+    background-image: url('../../assets/indonesia.jpg');
+}
+.bgsecond{
+    background-image: url('../../assets/tailand.jpg');
+}
+.bgthird{
+    background-image: url('../../assets/mountains-4671122_1280.jpg');
+}
+.bgfourth{
+    background-image: url('../../assets/five.jpg');
+}
+
+.ulbtn li:active{
+    background: orange;
+}
