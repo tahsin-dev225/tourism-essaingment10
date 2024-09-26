@@ -27,7 +27,7 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>,
-        loader:()=> fetch('http://localhost:5000/place')
+        loader:()=> fetch('https://tourism-server10.vercel.app/place')
       },
       {
         path:'/users',
@@ -48,17 +48,17 @@ const router = createBrowserRouter([
       {
         path:'/allSpots',
         element:<AllSpots></AllSpots>,
-        loader: ()=> fetch('http://localhost:5000/place')
+        loader: ()=> fetch('https://tourism-server10.vercel.app/place')
       },
       {
         path:'/matchCountry/:id',
         element:<MatchCountry></MatchCountry>,
-        loader:()=> fetch('http://localhost:5000/place')
+        loader:()=> fetch('https://tourism-server10.vercel.app/place')
       },
       {
         path:'/spotDetails/:id',
         element:<PrivateRoute><SpotDetails></SpotDetails></PrivateRoute>,
-        loader: ()=> fetch('http://localhost:5000/place')
+        loader: ()=> fetch('https://tourism-server10.vercel.app/place')
       }
     ]
   },

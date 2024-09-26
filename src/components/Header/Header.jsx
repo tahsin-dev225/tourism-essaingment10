@@ -20,7 +20,6 @@ const Header = () => {
     <li><NavLink to='/'>Home</NavLink></li>
     <li><NavLink to='/allSpots'>All Spots</NavLink></li>
     <li><NavLink to='/addSpot'>Add Spot</NavLink></li>
-    <li><NavLink to='/myList'>My List</NavLink></li>
     <li><NavLink to='/users'>Users</NavLink></li>
     <li><NavHashLink smooth to='/#about'>About</NavHashLink></li>
     </>

@@ -10,14 +10,11 @@ const PrivateRoute = ({children}) => {
     const {user} = useContext(AuthContext)
 
    const notify = () =>  toast("login first")
-   
 
     if(user){
         notify()
         return children
     }
-
-
 
     return (
         <>
